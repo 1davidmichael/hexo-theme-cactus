@@ -24,7 +24,7 @@ nav:
 # The 'icon' keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
-# You can optionally add a 'label' key to set the title attribute on the link. 
+# You can optionally add a 'label' key to set the title attribute on the link.
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
   -
@@ -184,6 +184,10 @@ utterances:
 google_analytics:
   enabled: false
   id: UA-86660611-1
+
+gtm:
+  enabled: false
+  id: GTM-12345678
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
